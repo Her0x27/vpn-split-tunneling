@@ -1,0 +1,59 @@
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.bak
+*.backup
+*.orig
+
+# Systemd caches
+.cache/
+*.cache
+systemd/
+user-runtime-dir/
+
+# Sensitive configuration examples
+*.conf.local
+*.config.local
+*.example
+config.local.*
+*.secrets
+*.env.local
+.env
+.env.local
+.env.*.local
+private/
+secrets/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+*.egg-info/
+.Python
+
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
